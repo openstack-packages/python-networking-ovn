@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a72e520_5426ba69",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-23T13:06:13Z",
+      "side": 1,
+      "message": "And what if e.g. rpc-server used on the node?.. I suggest you depend on openstack-neutron-common instead.",
+      "revId": "44adedd58b31ccec2a1f90a06861557b6244048f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_742bb630",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-23T13:06:13Z",
+      "side": 1,
+      "message": "Does the list correspond to the requirements from upstream package?",
+      "revId": "44adedd58b31ccec2a1f90a06861557b6244048f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}

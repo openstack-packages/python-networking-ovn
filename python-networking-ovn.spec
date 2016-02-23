@@ -7,8 +7,7 @@
 
 Name:           python-%{pkgname}
 Version:        XXX
-Release:        XXX%{?dist}
-Epoch:          1
+Release:        XXX
 Summary:        %{drv_vendor} OpenStack Neutron driver
 
 License:        ASL 2.0
@@ -26,7 +25,7 @@ BuildRequires:  python-testrepository
 BuildRequires:  python-testtools
 BuildRequires:  python-webtest
 
-Requires:       openstack-neutron
+Requires:       openstack-neutron-common
 Requires:       python-babel
 Requires:       python-pbr
 
@@ -57,8 +56,10 @@ export SKIP_PIP_INSTALL=1
 
 # Move config file to proper location
 install -d -m 755 %{buildroot}%{_sysconfdir}/neutron/plugins/networking-ovn
-mv %{buildroot}/usr/etc/neutron/* %{buildroot}%{_sysconfdir}/neutron/plugins/networking-ovn
-chmod 640 %{buildroot}%{_sysconfdir}/neutron/plugins/*/*.ini
+# FIXME there are not *.ini in networking-ovn tarball
+# Where are they supposed to come from??
+#mv %{buildroot}/usr/etc/neutron/* %{buildroot}%{_sysconfdir}/neutron/plugins/networking-ovn
+#chmod 640 %{buildroot}%{_sysconfdir}/neutron/plugins/*/*.ini
 
 
 %files
@@ -66,4 +67,5 @@ chmod 640 %{buildroot}%{_sysconfdir}/neutron/plugins/*/*.ini
 %doc %{docpath}
 %{python2_sitelib}/%{srcname}
 %{python2_sitelib}/%{srcname}-%{version}-py%{python2_version}.egg-info
-%config(noreplace) %attr(0640, root, neutron) %{_sysconfdir}/neutron/plugins/networking-ovn/*.ini
+%{_bindir}/neutron-ovn-db-sync-util
+#%config(noreplace) %attr(0640, root, neutron) %{_sysconfdir}/neutron/plugins/networking-ovn/*.ini

@@ -67,3 +67,4 @@ chmod 640 %{buildroot}%{_sysconfdir}/neutron/plugins/*/*.ini
 %{python2_sitelib}/%{srcname}
 %{python2_sitelib}/%{srcname}-%{version}-py%{python2_version}.egg-info
 %config(noreplace) %attr(0640, root, neutron) %{_sysconfdir}/neutron/plugins/networking-ovn/*.ini
+# REMOVEME: error caused by commit 

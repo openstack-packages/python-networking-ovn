@@ -33,6 +33,24 @@
       "revId": "44adedd58b31ccec2a1f90a06861557b6244048f",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_ae76b6d6",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1007548
+      },
+      "writtenOn": "2016-02-24T07:24:55Z",
+      "side": 1,
+      "message": "This is the first time I am working on rpm packaging.\nI copied the spec file from networking-odl.\nApologies for the ignorance.\nI will have a better look into the spec file and submit a proper one after testing locally.",
+      "parentUuid": "5a72e520_742bb630",
+      "revId": "44adedd58b31ccec2a1f90a06861557b6244048f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }

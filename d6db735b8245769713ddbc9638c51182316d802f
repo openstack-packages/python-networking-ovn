@@ -1,0 +1,181 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a72e520_13344edd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-25T13:46:58Z",
+      "side": 1,
+      "message": "Why exactly do we need to split config file from the main python package?",
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_5326c6bb",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-25T13:46:58Z",
+      "side": 1,
+      "message": "Why the renames?",
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_331a2a6f",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-25T13:46:58Z",
+      "side": 1,
+      "message": "No need in epoch.",
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_732bc282",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-25T13:46:58Z",
+      "side": 1,
+      "message": "I suspect you just need python-neutron here",
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_33314aed",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-25T13:46:58Z",
+      "side": 1,
+      "message": "%package common\n\nAnd same for all other cases below.",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 34
+      },
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_534de671",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-25T13:46:58Z",
+      "side": 1,
+      "message": "I really wonder what the split of common and the main subpackage gives us...",
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_7352e214",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-25T13:46:58Z",
+      "side": 1,
+      "message": "lv",
+      "range": {
+        "startLine": 77,
+        "startChar": 33,
+        "endLine": 77,
+        "endChar": 36
+      },
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_b3253aad",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-25T13:46:58Z",
+      "side": 1,
+      "message": "%files tests",
+      "range": {
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 116,
+        "endChar": 31
+      },
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_93203e9d",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-25T13:46:58Z",
+      "side": 1,
+      "message": "%files common",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 32
+      },
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}

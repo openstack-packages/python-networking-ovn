@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "5a72e520_33486a5b",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1007548
+      },
+      "writtenOn": "2016-02-25T13:57:20Z",
+      "side": 1,
+      "message": "I was just following the naming convention in neutron spec file.",
+      "parentUuid": "5a72e520_5326c6bb",
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a72e520_331a2a6f",
         "filename": "python-networking-ovn.spec",
         "patchSetId": 1
@@ -81,6 +99,30 @@
       "writtenOn": "2016-02-25T13:46:58Z",
       "side": 1,
       "message": "%package common\n\nAnd same for all other cases below.",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 34
+      },
+      "revId": "d6db735b8245769713ddbc9638c51182316d802f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_73790293",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1007548
+      },
+      "writtenOn": "2016-02-25T13:57:20Z",
+      "side": 1,
+      "message": "I guess I tried to follow the neutron spec and over did it.\nI will revert it back and just instead fix the oslo-config-generator issue.\n\nThanks for the review",
+      "parentUuid": "5a72e520_33314aed",
       "range": {
         "startLine": 47,
         "startChar": 0,

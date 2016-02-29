@@ -1,0 +1,8 @@
+Code-Review+2: Ihar Hrachyshka <ihrachys@redhat.com>
+Verified+1: Ihar Hrachyshka <ihrachys@redhat.com>
+Verified+1: rdo-ci-jenkins <whayutin+rdocijenkins@redhat.com>
+Submitted-by: Ihar Hrachyshka <ihrachys@redhat.com>
+Submitted-at: Mon, 29 Feb 2016 13:57:58 +0100
+Reviewed-on: https://review.gerrithub.io/264341
+Project: openstack-packages/python-networking-ovn
+Branch: refs/heads/rpm-master

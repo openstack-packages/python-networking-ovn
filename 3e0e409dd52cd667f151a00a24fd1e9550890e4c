@@ -16,6 +16,24 @@
       "revId": "3e0e409dd52cd667f151a00a24fd1e9550890e4c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_b57c3574",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1007548
+      },
+      "writtenOn": "2016-02-29T12:44:29Z",
+      "side": 0,
+      "message": "I tested by removing this package (and all others which I have removed in patchset 2) from the \u0027BuildRequires\u0027 and the build was successful. So, I thought this package is not required for building the networking-ovn rpm.\n\nI can put it back if you think its required. Please let me know.",
+      "parentUuid": "5a72e520_d57371af",
+      "revId": "3e0e409dd52cd667f151a00a24fd1e9550890e4c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }

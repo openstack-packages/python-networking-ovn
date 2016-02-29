@@ -70,6 +70,23 @@
       "revId": "3e0e409dd52cd667f151a00a24fd1e9550890e4c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_ebaecae6",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2016-02-29T20:40:20Z",
+      "side": 0,
+      "message": "This needs to stay, setuptools is included in default Fedora buildroot but must be explicit for EL7.",
+      "revId": "3e0e409dd52cd667f151a00a24fd1e9550890e4c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }

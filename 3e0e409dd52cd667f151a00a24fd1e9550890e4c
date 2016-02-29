@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a72e520_d57371af",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2016-02-29T12:38:05Z",
+      "side": 0,
+      "message": "Any reason to remove the build dep? I thought it belongs to every python package.",
+      "revId": "3e0e409dd52cd667f151a00a24fd1e9550890e4c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}

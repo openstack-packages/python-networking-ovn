@@ -87,6 +87,24 @@
       "revId": "3e0e409dd52cd667f151a00a24fd1e9550890e4c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a72e520_06231d06",
+        "filename": "python-networking-ovn.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1007548
+      },
+      "writtenOn": "2016-03-01T05:44:18Z",
+      "side": 0,
+      "message": "Thanks Alan.\nI submitted another patch to fix this.\nhttps://review.gerrithub.io/#/c/264719/",
+      "parentUuid": "5a72e520_ebaecae6",
+      "revId": "3e0e409dd52cd667f151a00a24fd1e9550890e4c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }

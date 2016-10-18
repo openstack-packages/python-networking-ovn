@@ -34,6 +34,7 @@ BuildRequires:  python-sphinx
 # Its needed by networking-ovn.
 Requires:       openstack-neutron-common
 Requires:       python-openvswitch
+Requires:       python2-tenacity
 
 
 %description
